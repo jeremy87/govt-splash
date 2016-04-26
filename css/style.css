@@ -1,0 +1,331 @@
+/* STYLE SHEET */
+
+body#splash-page {
+	background-image: url(../images/mainBG-people.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+    width: 100%;
+}
+
+/*.page-id-1260 .site {
+    background-image: url(../images/mainBG-people.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}*/
+
+.container {
+	width: 90%;
+	margin: auto;
+}
+
+#inner-container {
+	width: 50%;
+	float: left;
+	position: absolute;
+	top: 20%;
+}
+
+img.broadnet-logo {
+    float: right;
+    width: 175px;
+}
+
+.small-header {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+span.logo {
+    float: right;
+}
+
+img.logo {
+    width: 175px;
+    margin-top: 14px;
+}
+
+h1.main-heading {
+    font-size: 4em;
+    font-family: Oswald;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+h3.sub-heading {
+    font-size: 2.5em;
+    font-family: Oswald;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+
+h4.bottom-heading {
+    font-size: 1.2em;
+    font-family: Oswald;
+    font-weight: 400;
+    color: #fff;
+    float: left;
+    margin-bottom: 0px;
+    background-color: rgba(0, 118, 192, 0.8);
+    padding: 10px 20px;
+}
+
+p.main-copy {
+    font-size: 1.5em;
+    font-family: Oswald;
+    font-weight: 300;
+    color: #fff;
+}
+
+p.main-copy-bottom {
+    font-size: 1.5em;
+    font-family: Oswald;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+p.disclaimer-text {
+    font-size: 1em;
+    font-family: Oswald;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.btn {
+    border-radius: 0px;
+    border: none;
+    margin-bottom: 45px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-family: Oswald;
+    font-weight: 400;
+    margin-right: 25px
+}
+
+.btn-casestudy {
+    color: #fff;
+    background-color: #0076c0;
+    border: 3px solid #0076c0;
+}
+
+.btn-casestudy:hover {
+    color: #fff;
+    background-color: #063570;
+    border: 3px solid #063570;
+}
+
+.btn-contact {
+    color: #fff;
+    background-color: transparent;
+    border: 3px solid #fff;
+}
+
+.btn-contact:hover {
+    color: #0076c0;
+    background: #fff;
+    border: 3px solid #fff;
+}
+
+/* SLIDE OUT */
+.contact-slideout {
+    position: fixed;
+    top: 0;
+    left: -40%;
+    width: 40%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 100;
+    overflow: auto;
+}
+
+.slideout-container {
+    width: 85%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.slideout-menu .slideout-menu-toggle {
+    position: absolute;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1;
+    text-decoration: none;
+    vertical-align: top;
+    padding: 20px 40px;
+}
+
+.slideout-menu .slideout-menu-toggle:hover {
+    color: #fff;
+}
+
+a.close-button {
+    float: right;
+    color: #fff;
+}
+
+a.close-button:hover {
+    color: #f5964f;
+    text-decoration: none;
+}
+
+h3.slideout-heading {
+    font-size: 2em;
+    font-family: Oswald;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 50px;
+    padding-top: 5px;
+}
+
+img.contact-photo {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+p.slideout-name {
+    font-size: 3em;
+    font-family: Oswald;
+    font-weight: 700;
+    color: #f5964f;
+    margin-bottom: 0px;
+}
+
+p.slideout-info {
+    font-size: 1.5em;
+    font-family: Oswald;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+a.slideout-info-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+a.slideout-info-link:hover {
+    color: #f5964f;
+}
+
+hr.contact-hr {
+    margin-top: 20px;
+}
+
+p.slideout-more {
+    font-size: 1.2em;
+    font-family: Oswald;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+a.broadnet-link {
+    text-decoration: underline;
+    color: #f5964f;  
+}
+
+a.broadnet-link:hover {
+    color: #fff;  
+}
+
+/* END SLIDE OUT */ 
+
+/* POP UP */
+#overlay {
+	display: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+}
+
+#popup {
+	display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: rgba(255, 255, 255, 0.97);
+    width: 500px;
+    margin-left: -250px; /*Half the value of width to center div*/
+    margin-top: -125px; /*Half the value of height to center div*/
+    padding: 10px 20px;
+    border-top: 7px solid #f5964f;
+    z-index: 200;
+}
+
+ #popup-close {
+    float: right;
+    padding: 5px 10px 10px 10px;
+    cursor: pointer;
+}
+
+h2.popup-close {
+    margin: 0;
+    color: #f5964f;
+    font-weight: 300;
+    font-size: 1.8em;
+}
+
+h2.popup-close:hover {
+    color: #000;
+}
+
+h3.heading-popup {
+    font-size: 3em;
+    font-family: Oswald;
+    font-weight: 700;
+    color: #f5964f;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+p.copy-popup {
+    font-size: 1.2em;
+    font-family: Oswald;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 15px;  
+}
+
+input.email-field {
+    width: 100%;
+    font-size: 1.2em;
+    font-family: Oswald;
+    padding: 5px 10px;
+    border: 2px solid #919191;
+    margin-bottom: 15px;
+}
+
+input.email-field:focus {
+    border: 2px solid #f5964f;
+}
+
+.btn-email {
+    color: #fff;
+    background-color: #f5964f;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.btn-email:hover {
+    color: #fff;
+    background: #db7021;
+}
+
+/* END POP UP */
